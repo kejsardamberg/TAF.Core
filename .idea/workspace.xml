@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9801b8a1-b8da-4427-b8f9-965b20ca1abe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/StringComparisonType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/TestRunReporterFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/VerificationMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/backendserverinteraction/RestRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/backendserverinteraction/TafBackendServerConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/backendserverinteraction/TestlinkAdapterServerConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/gui/Gui.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/gui/abouttab/AboutTabPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/gui/createtesttab/CreateTestTabPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/gui/createtesttab/TestStepListManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/gui/guistyle/AppFont.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/gui/guistyle/Helper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/gui/guistyle/TafButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/gui/guistyle/TafButtonType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/gui/guistyle/TafCheckbox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/gui/guistyle/TafCloseButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/gui/guistyle/TafComboBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/gui/guistyle/TafDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/gui/guistyle/TafFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/gui/guistyle/TafGuiColor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/gui/guistyle/TafGuiColorAlternative1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/gui/guistyle/TafGuiColorOriginal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/gui/guistyle/TafHeadline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/gui/guistyle/TafHtmlTextPane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/gui/guistyle/TafLabel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/gui/guistyle/TafPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/gui/guistyle/TafTextArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/gui/guistyle/TafTextField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/gui/guistyle/WaitSymbol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/gui/guistyle/lookandfeel/TafLookAndFeel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/gui/plugins/IGuiTab.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/gui/plugins/PluginLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/gui/runtab/DiagnosticsRunResultsDialogue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/gui/runtab/DiagnosticsRunWaitDialogue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/gui/runtab/HelpDialogue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/gui/runtab/RunResultsDialogue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/gui/runtab/RunSettingsDialogue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/gui/runtab/RunTestTabPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/gui/runtab/TestClassPickerDialogue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/gui/runtab/TestsRunningDialogue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/gui/teststructure/FrameworkTestStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/gui/teststructure/SubProcedureTestStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/gui/teststructure/TestCaseManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/gui/teststructure/TestStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/gui/teststructure/TestStepList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/gui/teststructure/TestStepListPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/gui/teststructure/TestStepResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/gui/teststructure/codegeneration/GuiMapTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/gui/teststructure/codegeneration/TestActionTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/gui/teststructure/codegeneration/TestSetTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/gui/userpreferences/Preferences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/gui/userpreferences/SavePreferencesOnCloseWindowsListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/guidriverpluginstructure/GuiDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/guidriverpluginstructure/GuiElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/guidriverpluginstructure/PositionBasedIdentification/ElementsList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/guidriverpluginstructure/PositionBasedIdentification/PositionBasedGuiElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/guidriverpluginstructure/PositionBasedIdentification/PositionBasedIdentificator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/junitcustomization/TafParallelTestCaseRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/junitcustomization/TafResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/junitcustomization/TafRunListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/junitcustomization/TafTestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/logging/ConsoleLogLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/logging/GenericJavaObjectToHtml.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/logging/KnownError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/logging/KnownError_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/logging/KnownErrorsList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/logging/KnownErrorsList_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/logging/LogFolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/logging/LogLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/logging/LogPost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/logging/LogPost_Tests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/logging/logmessage/DataValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/logging/logmessage/ElementName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/logging/logmessage/LogMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/logging/logmessage/LogMessagePartType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/logging/logmessage/LogMessageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/logging/logmessage/LogMessageWithFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/logging/logmessage/TextLogMessagePart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/reporting/HtmlStyles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/reporting/TafVersionGetter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/reporting/UxColors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/reporting/testcasereports/TestCaseLogReporterHtmlLogFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/reporting/testcasereports/TestCaseLogReporterPureTextBasedLogFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/reporting/testcasereports/TestCaseLogReporterToStandardOut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/reporting/testrunreports/BaseFolderHtmlIndexFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/reporting/testrunreports/KioskModeReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/reporting/testrunreports/KioskModeReportTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/reporting/testrunreports/TafBackendServerTestRunReporter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/reporting/testrunreports/TestRunReporterHtmlSummaryReportFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/reporting/testrunreports/TestlinkAdapterTestRunReporter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/reporting/testrunreports/email/EmailSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/reporting/testrunreports/email/EmailSenderImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/reporting/testrunreports/email/TestRunReporterEmailReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/reporting/testrunreports/htmlsummaryreport/HtmlSummaryReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/reporting/testrunreports/htmlsummaryreport/HtmlSummaryReport_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/reporting/testrunreports/htmlsummaryreport/NewError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/reporting/testrunreports/htmlsummaryreport/NewErrorsList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/scp/Scp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/scp/ScpImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/support/ApplicationManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/support/ColoredConsolePrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/support/PerformanceTimer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/support/Personnummer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/support/StringManagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/support/StringManagementTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/support/SupportMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/support/TafUserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/support/TafUserInfoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/support/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/support/ValuePair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/support/ValuePair_Tests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/support/api/Taf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/support/tableverification/CellMatchingType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/support/tableverification/DataCell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/support/tableverification/DataCellEvaluationStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/support/tableverification/TableData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/support/tableverification/TableRow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/support/tableverification/TableRowEvaluationStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/testcase/TafParallelTestListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/testcase/TestCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/testcase/TestCaseData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/testcase/TestCaseLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/testcase/TestCaseLogReporter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/testcase/TestCaseLogReporterFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/testcase/TestCaseLogSection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/testcase/TestCaseLog_Tests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/testcase/TestCaseResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/testcase/TestCaseRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/testcase/TestCase_Tests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/testorderprioritizingmanager/TestCaseResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/testorderprioritizingmanager/TestCaseResults.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/testorderprioritizingmanager/TestOrderPrioritizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/testorderprioritizingmanager/TestOutcome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/testrun/CliTestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/testrun/DiagnosticsRun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/testrun/EnvironmentSetupTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/testrun/Settings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/testrun/Settings_Tests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/testrun/SuppressTestOutputFromConsoleOutput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/testrun/TestRun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/testrun/reportingengine/TestRunReporter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/testrun/reportingengine/TestRunReporterFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/testset/TestSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/testset/TestSet_Tests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/testset/UnitTestClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/waiting.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/se/claremont/taf/GenericJavaObjectToHtmlTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/se/claremont/taf/core/backendserverinteraction/BackendServerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/se/claremont/taf/core/backendserverinteraction/JsonSerializationAndDeserializationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/se/claremont/taf/core/guidriverpluginstructure/PositionBasedIdentification/PositionBasedIdentificatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/se/claremont/taf/core/reporting/testcasereports/TestCaseHtmlReportTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/se/claremont/taf/core/reporting/testrunreports/BaseFolderHtmlIndexFileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/se/claremont/taf/core/reporting/testrunreports/TafBackendTestRunReporterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/se/claremont/taf/core/reporting/testrunreports/TestRunHtmlSummaryReportTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/se/claremont/taf/core/reporting/testrunreports/TestlinkTestRunReporterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/se/claremont/taf/core/reporting/testrunreports/email/EmailSenderImplementationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/se/claremont/taf/core/reporting/testrunreports/htmlsummaryreport/NewErrorsListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/se/claremont/taf/core/scp/ScpImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/se/claremont/taf/core/scp/config/JunitDummyAuthenticationProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/se/claremont/taf/core/scp/config/PlatformConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/se/claremont/taf/core/scp/config/SSHServerResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/se/claremont/taf/core/scp/config/ServerConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/se/claremont/taf/core/support/SupportMethodsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/se/claremont/taf/core/support/TafUserInfoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/se/claremont/taf/core/support/UtilsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/se/claremont/taf/core/support/tableverification/DataCellTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/se/claremont/taf/core/support/tableverification/TableRowTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/se/claremont/taf/core/support/tableverification/TableVerificationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/se/claremont/taf/core/testcase/TestCaseTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/se/claremont/taf/core/testorderprioritizingmanager/TestOrderPriotizerTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/se/claremont/taf/core/testrun/CliTestRunnerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/se/claremont/taf/core/testrun/DiagnosticsRunTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/se/claremont/taf/core/testrun/FakeTestRunReporter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/se/claremont/taf/core/testrun/ParallelExecution_TestClass1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/se/claremont/taf/core/testrun/ParallelExecution_TestClass2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/se/claremont/taf/core/testrun/RestServerInteractionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/se/claremont/taf/core/testrun/TafTestRunner_Tests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/se/claremont/taf/core/testrun/TestRunExitCodeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/se/claremont/taf/core/testrun/TestRunTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/se/claremont/taf/core/testrun/TestRunWrapupTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/se/claremont/taf/core/testrun/TestSet1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/se/claremont/taf/core/testrun/TestSet2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/se/claremont/taf/testhelpers/ResourceManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/ExceptionThrowingTestClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/FailingTestClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/PassingTestClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/TestSet1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/TestSet2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/automation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/basedir/emptyfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/configdir/emptyfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/copyfile.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/sshtools.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/test-dsa.key" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/se/claremont/taf/core/backendserverinteraction/TafBackendServerConnection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="137">
+              <caret line="114" column="5" selection-start-line="114" selection-start-column="5" selection-end-line="114" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/se/claremont/taf/core/reporting/testrunreports/TafBackendServerTestRunReporter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="26" column="71" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="71" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-405">
+              <caret line="61" selection-start-line="61" selection-end-line="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/se/claremont/taf/core/scp/config/SSHServerResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="63" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/se/claremont/taf/core/reporting/testrunreports/email/EmailSenderImplementationTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="22" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/se/claremont/taf/core/reporting/testrunreports/email/EmailSenderImplementation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/pluginmanagement/TestRunReporterPluginManager.java" />
+        <option value="$PROJECT_DIR$/src/test/java/se/claremont/taf/core/scp/config/SSHServerResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/se/claremont/taf/core/backendserverinteraction/TafBackendServerConnection.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="width" value="1720" />
+    <option name="height" value="930" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="taf.core" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TAF.Core" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562143615255" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9801b8a1-b8da-4427-b8f9-965b20ca1abe" name="Default Changelist" comment="" />
+      <created>1562141475086</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1562141475086</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24975026" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" visible="true" weight="0.32997987" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/se/claremont/taf/core/pluginmanagement/TestRunReporterPluginManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/se/claremont/taf/core/reporting/testrunreports/TafBackendServerTestRunReporter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="26" column="71" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/se/claremont/taf/core/reporting/testrunreports/email/EmailSenderImplementation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/se/claremont/taf/core/reporting/testrunreports/email/EmailSenderImplementationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/se/claremont/taf/core/scp/config/SSHServerResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="63" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/se/claremont/taf/core/backendserverinteraction/TafBackendServerConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="114" column="5" selection-start-line="114" selection-start-column="5" selection-end-line="114" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-405">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>IntelliJ IDEA Community Edition IC-182.5107.16</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
