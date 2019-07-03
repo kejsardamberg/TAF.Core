@@ -111,21 +111,4 @@ public class Utils {
         return false;
     }
 
-    /**
-     * Checks if running jvm supports TAF supported java version 8.
-     * @return true if java version is 8 otherwise false
-     */
-    public boolean checkSupportedJavaVersionForTAF()
-    {
-        try {
-            int presentJVMVersion = Integer.parseInt( Taf.tafUserInfon().getJavaVersion().substring( Taf.tafUserInfon().getJavaVersion().indexOf(".") + 1, Taf.tafUserInfon().getJavaVersion().indexOf(".") + 2 ) );
-            if( presentJVMVersion >= SUPPORTED_TAF_JVM_VERSION )
-                return true;
-        } catch (NumberFormatException e) {
-            e.printStackTrace();
-            return false;
-        }
-        return false;
-    }
-
 }

@@ -23,11 +23,4 @@ public class UtilsTest extends UnitTestClass{
                 Utils.getInstance().getOS().toLowerCase().contains("linux") ||
                 Utils.getInstance().amIWindowsOS() );
     }
-
-    @Test
-    public void checkSupportedJavaVersionForTAF()
-    {
-        Assert.assertTrue( Utils.getInstance().checkSupportedJavaVersionForTAF() );
-    }
-
 }

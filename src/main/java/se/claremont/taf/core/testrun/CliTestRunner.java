@@ -7,7 +7,6 @@ import se.claremont.taf.core.junitcustomization.TafResult;
 import se.claremont.taf.core.junitcustomization.TafTestRunner;
 import se.claremont.taf.core.reporting.testrunreports.TestRunReporterHtmlSummaryReportFile;
 import se.claremont.taf.core.support.SupportMethods;
-import se.claremont.taf.core.support.Utils;
 import se.claremont.taf.core.support.api.Taf;
 
 import java.awt.*;
@@ -95,7 +94,7 @@ public class CliTestRunner {
     public static void executeRunSequence(String[] args){
         System.out.println(System.lineSeparator() + "Executing TAF (TestAutomationFramework) from CLI." + System.lineSeparator());
         remainingArguments = stringArrayToList(args);
-        printErrorMessageUponWrongJavaVersion();// Exits at the end. No need to remove arguments from argument array for not being test classes
+        printJavaVersion();// Exits at the end. No need to remove arguments from argument array for not being test classes
         setSystemPropertiesIfStatedWithMinusD();
         printCurrentVersionUponVersionArgument();
         printHelpTextIfApplicable();
@@ -424,12 +423,8 @@ public class CliTestRunner {
         System.out.println("Failed:     " + result.getFailureCount());
     }
 
-    private static void printErrorMessageUponWrongJavaVersion(){
-        if( Utils.getInstance().checkSupportedJavaVersionForTAF() ) return;
-        System.out.println( "Running java version (" + Taf.tafUserInfon().getJavaVersion() + ") is not supported for TAF. Please use Java " + Utils.getInstance().SUPPORTED_TAF_JVM_VERSION + " or newer version!" );
-        System.out.println(System.lineSeparator() + helpText());
-        TestRun.setExitCode(TestRun.ExitCodeTable.RUN_TAF_ERROR_FATAL.getValue());
-        exitWithExitCode();
+    private static void printJavaVersion(){
+        System.out.println( "Running java version " + Taf.tafUserInfon().getJavaVersion() + "." );
     }
 
     private static String[] stringListToArray(List<String> strings){
